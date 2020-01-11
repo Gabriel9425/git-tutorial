@@ -7,6 +7,10 @@ var suma = a + b;
 var resta = a - b;
 var multiplicacion = a * b;
 
-console.log("esta es la suma " + suma);
-console.log("esta es la resta " + resta);
-console.log("esta es la multiplicacion " + multiplicacion);
+function devuelve()
+{
+document.getElementById("demo suma").innerHTML= suma;
+document.getElementById("demo resta").innerHTML= resta;
+document.getElementById("demo multiplicacion").innerHTML= multiplicacion;
+
+}
